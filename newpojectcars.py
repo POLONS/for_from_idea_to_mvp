@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import streamlit as st
 from PIL import Image
-
+pip install matplotlib
 
 
 df = pd.read_csv('cars.csv')
