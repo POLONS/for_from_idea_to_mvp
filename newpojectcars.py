@@ -5,6 +5,7 @@ import streamlit as st
 from PIL import Image
 
 
+
 df = pd.read_csv('cars.csv')
 
 
