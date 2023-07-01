@@ -42,7 +42,7 @@ df.describe()
 
 df.describe(include='object')
 
-df.corr(method ='pearson')
+
 
 
 df[['km_driven']].describe().transpose()
