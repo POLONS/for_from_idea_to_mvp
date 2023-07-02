@@ -55,7 +55,6 @@ df[['km_driven']].max()
 
 
 
-df.sort_values(by=['km_driven'],ascending=True).plot.scatter('km_driven','selling_price');
 
 
 df[['transmission', 'mileage']].describe().transpose()
@@ -65,8 +64,6 @@ df[['transmission', 'mileage']].describe().transpose()
 
 df['transmission'].value_counts()
 
-
-df.sort_values(by=['transmission'],ascending=True).plot.scatter('transmission','selling_price');
 
 
 df[['mileage']].sample(5)
@@ -96,10 +93,8 @@ df[['mileage']].describe().transpose()
 df['mileage'].quantile(0.9)
 
 
-df['mileage'].plot.box();
 
 
-df.sort_values(by=['mileage'],ascending=True).plot.scatter('mileage','selling_price');
 
 
 df['name'].describe().transpose()
@@ -116,15 +111,11 @@ df.sort_values(by=['name'], ascending=True).head()
 
 
 
-df.sort_values(by=['name'],ascending=True).plot.scatter('name','selling_price');
-
 df['year'].describe()
 
 
 
 
-
-df.sort_values(by=['year'],ascending=True).plot.scatter('year','selling_price');
 
 df['owner'].describe()
 
@@ -143,6 +134,4 @@ df['owner'].value_counts() # проверка
 
 
 
-
-df.plot.scatter('owner','selling_price');
 
